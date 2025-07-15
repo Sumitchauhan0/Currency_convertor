@@ -1,12 +1,66 @@
-# React + Vite
+# Currency Convertor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive React application that allows users to convert amounts between different currencies in real-time. Built using React, Vite, and Tailwind CSS, this app fetches live exchange rates and provides a smooth user experience with searchable dropdowns and an intuitive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [API Details](#api-details)
+- [Deployment](#deployment)
+- [Future Improvements](#future-improvements)
+- [Contributing](#contributing)
+- [Author](#author)
+- [License](#license)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Demo
+
+You can check out the live deployed version here:
+
+**https://sumitchauhan0.github.io/Currency_convertor/**
+
+---
+
+## Features
+
+- Convert currencies between 100+ world currencies.
+- Real-time currency exchange rates.
+- Searchable dropdown to easily find currencies.
+- Responsive UI built with Tailwind CSS.
+- Input validation and disabled input handling.
+- Smooth UX with dropdown click outside detection.
+
+---
+
+## Technologies Used
+
+- **React 19** - Frontend library
+- **Vite** - Development server and build tool
+- **Tailwind CSS** - Utility-first CSS framework
+- **GitHub Pages** - Free hosting for the deployed app
+- **gh-pages** npm package - For easy deployment
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher recommended)
+- npm (comes with Node.js)
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/Sumitchauhan0/Currency_convertor.git
+cd Currency_convertor
